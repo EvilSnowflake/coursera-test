@@ -1,0 +1,46 @@
+body{
+	background-color: lightgray;
+	color: darkblue;
+	font-size: 130%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+	color: limegreen;
+	text-align: right;
+}
+li,h1 {
+	color: limegreen;
+	text-align: center;
+}
+li.big {
+	font-size: 35px;
+	list-style: none;
+}
+li:hover {
+	background-color: lightcoral;
+}
+ul {
+	background-color: darkblue;
+}
+div span {
+	opacity: 0.7;
+}
+ul li:nth-child(3){
+	font-size: 55px;
+}
+div:hover span:nth-child(2){
+	font-size: 5px;
+}
+
+.highlight {
+	font-size: 20px;
+	font-smooth: always;
+	font-style: oblique;
+	color: darkblue;
+}
+#mainPoint {
+	font-size: 30px;
+	font-weight: bold;
+	background-color: lightseagreen;
+	opacity: 0.85;
+}
