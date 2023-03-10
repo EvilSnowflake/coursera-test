@@ -73,12 +73,20 @@ body {
 .row {
     border: 2px solid #3F0C1F;
     background: #A09E9E;
+    height: 1000px;
 }
 
-    .row p{
+    .row .dish-title {
+        font-size: 2em;
+    }    
+
+    .row .dish-details{
         margin: 30px;
-        height: 1000px;
+        
+        font-size: 1.5em;
     }
+
+    
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
