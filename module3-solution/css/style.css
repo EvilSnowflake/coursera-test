@@ -13,7 +13,7 @@ body {
     height: 100px;
 }
 
-.navbar-brand h1 { /* Brand name */
+.navbar-brand h1 {
     font-family: 'Dancing Script', serif;
     color: #3D4B67;
     font-size: 3em;
@@ -62,7 +62,9 @@ body {
     height: 50px;
     margin-top: -70px;
 }
+/** END OF HEADER **/
 
+/** CONTENT **/
 #main-content h2 {
     font-size: 300%;
     font-weight: bold;
@@ -73,7 +75,7 @@ body {
 .row {
     border: 2px solid #3F0C1F;
     background: #A09E9E;
-    height: 1000px;
+    height: auto;
 }
 
     .row .dish-title {
@@ -85,7 +87,7 @@ body {
         
         font-size: 1.5em;
     }
-
+/** END OF CONTENT **/
     
 
 /********** Medium devices only **********/
@@ -124,8 +126,6 @@ body {
         margin-bottom: 0px;
     }
 
-        
-
     #header-nav {
         background-color: #9B9B9B;
         border-radius: 0;
@@ -143,9 +143,5 @@ body {
     #main-content{
         margin: auto 75px;
     }
-
-    
     /* End Header */
-
-    
 }
